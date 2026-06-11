@@ -10,13 +10,13 @@ import { useSession } from "@/context/SessionContext";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kojak — Fale o que sente" },
+      { title: "Papo Leve — Fale o que sente" },
       {
         name: "description",
         content:
           "Rede social híbrida para desabafos e saúde mental. Com sua identidade ou no anonimato total. Um espaço seguro.",
       },
-      { property: "og:title", content: "Kojak — Fale o que sente" },
+      { property: "og:title", content: "Papo Leve — Fale o que sente" },
       {
         property: "og:description",
         content: "Desabafe com sua identidade ou no anonimato. Um espaço seguro.",
@@ -72,7 +72,7 @@ function Landing() {
               ou no anonimato total.
             </h1>
             <p className="max-w-md text-base text-muted-foreground md:text-lg">
-              Kojak é uma comunidade pra desabafos honestos. Sem chat privado, sem julgamento — só
+              Papo Leve é uma comunidade pra desabafos honestos. Sem chat privado, sem julgamento — só
               conversa pública, gentil e com regras claras.
             </p>
             <div className="flex flex-wrap gap-3">
@@ -112,7 +112,7 @@ function Landing() {
       </main>
 
       <footer className="border-t border-border/60 py-6 text-center text-xs text-muted-foreground">
-        Kojak MVP · não substitui acompanhamento profissional. Em crise? Ligue 188 (CVV).
+        Papo Leve MVP · não substitui acompanhamento profissional. Em crise? Ligue 188 (CVV).
       </footer>
     </div>
   );
